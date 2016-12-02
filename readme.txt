@@ -25,6 +25,7 @@
 3. npm install -g lite-server
 4. lite-server
 5. 瀏覽器頁面跳出來之後，將網址目錄切換到 web-enode/index.html 或 web-nodejs-enode/index.html
+6. (web-nodejs-enode 的 後端進入點為 bank-backend.js)
 
 
 # 注意事項
