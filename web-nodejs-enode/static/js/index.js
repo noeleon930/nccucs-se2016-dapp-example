@@ -44,6 +44,7 @@ function POST(url, data, callback, failback) {
 		.fail(failback)
 }
 
+// 載入網頁之後
 $(function () {
 	// 以 jQuery 抓取元素們
 	whoami = $('#whoami')
