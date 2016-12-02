@@ -1,0 +1,25 @@
+{
+  "name": "nccucs-se2016-dapp-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "web3": "^0.17.0-beta"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "bank": "node web-nodejs-enode/bank-backend.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noeleon930/nccucs-se2016-dapp-example.git"
+  },
+  "author": "NoelBao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noeleon930/nccucs-se2016-dapp-example/issues"
+  },
+  "homepage": "https://github.com/noeleon930/nccucs-se2016-dapp-example#readme"
+}
