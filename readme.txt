@@ -23,7 +23,7 @@
 (於專案根目錄)
 0. 執行 geth 連接到私有鏈
 1. npm install (一次就好)
-2. bower install (一次就好)
+2. bower install (一次就好，假如沒成功的話，請記得 npm install -g bower 先)
 3. npm install -g lite-server (一次就好)
 4. lite-server
 5. 瀏覽器頁面跳出來之後，將網址目錄切換到 web-enode/index.html 或 web-nodejs-enode/index.html
