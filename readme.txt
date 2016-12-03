@@ -21,7 +21,7 @@
 # 此範例專案使用方式
 
 (於專案根目錄)
-0. 執行 geth 連接到私有鏈
+0. 執行 geth 連接到私有鏈，記得 personal.unlockAccount(eth.accounts[0], '密碼', 解鎖幾秒)
 1. npm install (一次就好)
 2. bower install (一次就好，假如沒成功的話，請記得 npm install -g bower 先)
 3. npm install -g lite-server (一次就好)
