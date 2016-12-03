@@ -71,7 +71,7 @@ $(function () {
 
 				// 更新介面
 				ethBalance.text('以太帳戶餘額 (wei): ' + res.ethBalance)
-				bankBalance.text('銀行合約餘額: ' + res.bankBalance)
+				bankBalance.text('銀行合約餘額 (wei): ' + res.bankBalance)
 			},
 			function (res) {
 				log(res.responseText
