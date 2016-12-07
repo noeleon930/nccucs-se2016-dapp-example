@@ -8,9 +8,9 @@ contract Bank {
 	mapping (address => uint256) private balances;
 
 	// 事件們，用於通知前端 web3.js
-	event DepositEvent(address from, uint256 value, uint256 timestamp);
-	event WithdrawEvent(address from, uint256 value, uint256 timestamp);
-	event TransferEvent(address from, address to, uint256 value, uint256 timestamp);
+	event DepositEvent(address indexed from, uint256 value, uint256 timestamp);
+	event WithdrawEvent(address indexed from, uint256 value, uint256 timestamp);
+	event TransferEvent(address indexed from, address indexed to, uint256 value, uint256 timestamp);
 
 	// 建構子
 	function Bank() {
